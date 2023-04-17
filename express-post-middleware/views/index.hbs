@@ -1,0 +1,20 @@
+<h1>Signup</h1>
+
+
+{{!-- Not recommended: Send user data as GET request to the server --}}
+{{!-- <form action="/signup" method="GET">
+	<label for="username">Username:</label>
+	<input type="text" name="username">
+	<label for="password">Password:</label>
+	<input type="password" name="password">
+	<button type="submit">Signup</button>
+</form> --}}
+
+{{!-- Recommended: Send user data as POST request to the server --}}
+<form action="/signup" method="POST">
+	<label for="username">Username:</label>
+	<input type="text" name="username">
+	<label for="password">Password:</label>
+	<input type="password" name="password">
+	<button type="submit">Signup</button>
+</form>
